@@ -1,0 +1,175 @@
+/* Created by Big Blinks */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
+}
+
+.boy {
+    width: 138px;
+}
+img {
+    width: 300px;
+}
+
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.material-symbols-outlined {
+    padding-left: 60px;
+    color: red;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}
+
+
+/* button:hover{
+    background-color: pink;
+    color: palevioletred;
+} */
+
+button:active {
+    transform: scale(.86);
+}
+
+input {
+    margin-top: 20px;
+    height: 40px;
+    
+}
+
+h2{
+    font-weight: 400;
+}
+
+.fotter {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: xx-small;
+    margin-top: 150px;
+    background-color: red;
+    color: white;
+    width: 100px;
+}
+
+@media (min-width: 596px) and (max-width: 796px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px;
+        padding: 15px;
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+
+    button {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    h2{
+        font-weight: 400;
+        margin-left: 5%;
+        font-size: large;
+    }
+
+    h1 {
+        margin-bottom: -10px;
+        font-size: x-large;
+    }
+
+    .boy {
+        margin-top: 15px;
+    }
+
+    .fotter {
+        margin-left: 58px;
+    }
+}
+
+@media (min-width: 319px) and (max-width: 595px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5px;
+        padding: 20px;
+        width: 80%;
+        margin-left: 7%;
+    }
+
+    .image {
+        margin-right: 30px;
+    }
+
+    .boy {
+        width: 92px;
+    }
+
+    .girl {
+        width: 200px;
+        margin-top: -15px;
+    }
+
+    .material-symbols-outlined {
+        padding-left: 40px;
+    }
+
+    h1 {
+        margin-bottom: -10px;
+        font-size: large;
+       margin-left: 2%;
+    }
+
+    button {
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 2%;
+    }
+    
+    h2{
+        font-weight: 400;
+        margin-right: 8%;
+        font-size: medium;
+    }
+
+    body {
+        background-size: 100% 70%;
+        height: 90vh;
+    }
+
+    .fotter {
+        margin-left: 50px;
+    }
+}
+
